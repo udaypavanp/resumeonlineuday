@@ -1,0 +1,127 @@
+/* replicated-resume-styles.css - Modern Professional Styles for Digital Marketer & Trainer Resume */
+
+/* Import Google Fonts for a contemporary, readable design */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 20px;
+    background-color: #eef5f9; /* Light teal background for a digital, fresh aesthetic */
+    color: #222;
+}
+
+header {
+    text-align: center;
+    background-color: #006d7a; /* Deep teal to evoke digital tools and professionalism */
+    color: white;
+    padding: 35px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.6em;
+    margin: 0;
+    font-weight: 500;
+}
+
+header img {
+    border-radius: 50%;
+    border: 5px solid #ff8c00; /* Vibrant orange border for creative energy */
+    margin: 15px 0;
+    transition: transform 0.4s ease, border-color 0.4s ease;
+}
+
+header img:hover {
+    transform: scale(1.1);
+    border-color: #fff;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 15px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff8c00;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+section {
+    margin: 25px 0;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+section:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.12);
+    transform: translateY(-5px); /* Subtle lift to emphasize sections like Skills or Experience */
+}
+
+h2 {
+    color: #006d7a;
+    font-size: 1.9em;
+    border-bottom: 3px solid #ff8c00;
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    background: #d9f0f5; /* Soft teal tint for list items, highlighting trainer expertise */
+    margin: 12px 0;
+    padding: 14px;
+    border-radius: 8px;
+    transition: background 0.4s ease, transform 0.4s ease, color 0.4s ease;
+}
+
+ul li:hover {
+    background: #ff8c00;
+    color: white;
+    transform: translateX(8px); /* Enhanced shift for interactive focus on items like certifications */
+}
+
+ul li strong {
+    color: #006d7a;
+    font-weight: 600;
+}
+
+footer {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 0.9em;
+    color: #555;
+    border-top: 1px solid #ccc;
+    padding-top: 12px;
+}
+
+/* Responsive design for mobile viewing (optimized for India's high mobile usage) */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+    header {
+        padding: 25px;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+    ul li {
+        padding: 12px;
+    }
+}
